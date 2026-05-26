@@ -1,16 +1,38 @@
-# React + Vite
+# LA-LHUNG RESIDENCY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository for **LA-LHUNG RESIDENCY**, a luxury mountain resort website. This project is built using React and Vite, featuring a beautifully responsive UI that seamlessly adapts to mobile, tablet, and PC.
 
-Currently, two official plugins are available:
+## Prerequisites
+Before you begin, ensure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/en/download/) (v16.0.0 or higher recommended)
+- npm (comes with Node.js)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Installation & Setup
 
-## React Compiler
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/arjunshettyz/LA-LHUNG-RESIDENCY.git
+   cd LA-LHUNG-RESIDENCY
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **Install dependencies**
+   Run the following command to install all the required packages:
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+3. **Start the development server**
+   Launch the local dev server with Vite:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. **View the website**
+   Open your browser and navigate to the URL provided in the terminal (usually `http://localhost:5173`).
+
+## Building for Production
+To create a production-ready build, run:
+```bash
+npm run build
+```
+The output will be placed in the `dist` folder.
